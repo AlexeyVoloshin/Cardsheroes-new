@@ -11,7 +11,7 @@
                         <h5 class="card-title" >Псевдоним: {{$hero->nickname}}</h5>
                         <h6 class="card-title">Имя: {{$hero->real_name}}</h6>
                         <p class="card-text">Описание: {{$hero->original_description}}</p>
-                        <p class="card-text">Супер сила: {{$hero->superpower}}</p>
+                        <p class="card-text">Суперсила: {{$hero->superpower}}</p>
                         <p class="card-text">Коронная фраза: {{$hero->catch_phrase}}</p>
                 </div>
                 <div class="card-bottom" style="display: flex;
