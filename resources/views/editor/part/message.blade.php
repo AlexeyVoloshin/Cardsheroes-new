@@ -22,6 +22,15 @@
                     </script>
             </div>
         </div>
+        <script>
+            document.getElementById("hide").onclick = function () {
+                console.log('hi');
+                var test = document.getElementsByClassName('hide')[0];
+                if (test) {
+                    test.parentNode.removeChild(test);
+                }
+            }
+        </script>
     @endif
 
     @if($errors->any())
@@ -35,14 +44,13 @@
                   </script>
             </div>
         </div>
+        <script>
+            document.getElementById("hide").onclick = function () {
+                console.log('hi');
+                var test = document.getElementsByClassName('hide')[0];
+                if (test) {
+                    test.parentNode.removeChild(test);
+                }
+            }
+        </script>
     @endif
-
-<script>
-    document.getElementById("hide").onclick =  function () {
-        console.log('hi');
-        var test =  document.getElementsByClassName('hide')[0];
-        if(test){
-            test.parentNode.removeChild(test);
-        }
-    }
-</script>
