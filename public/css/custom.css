@@ -1,0 +1,17 @@
+
+/* Form */
+.navbar{
+    position: relative!important;
+}
+.card-bottom{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.form-group{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.pagination{
+    position: relative!important;
+}
